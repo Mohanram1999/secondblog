@@ -347,14 +347,10 @@ nav{
 }
 @media screen and (max-width:500px) {
     .education h1{
-        margin-top: 2.7cm;
         text-align: left;
     }
     .education p{
         display: none;
-    }
-    .education ul li{
-        font-size: x-small;
     }
 }
 /*      Certification       */
@@ -378,14 +374,10 @@ nav{
 }
 @media screen and (max-width:500px) {
     .certification h1{
-        margin-top: 1cm;
         text-align: left;
     }
     .certification p{
         display: none;
-    }
-    .certification ul li{
-        font-size: x-small;
     }
 }
 /*      SKILLS      */
@@ -409,14 +401,10 @@ nav{
 }
 @media screen and (max-width:500px) {
     .skills h1{
-        margin-top: 1.5cm;
         text-align: left;
     }
     .skills p{
         display: none;
-    }
-    .skills ul li{
-        font-size: x-small;
     }
 }
 /*      PROJECTS        */
@@ -441,14 +429,10 @@ nav{
 }
 @media screen and (max-width:500px) {
     .projects h1{
-        margin-top: 1.2cm;
         text-align: left;
     }
     .projects p{
         display: none;
-    }
-    .projects ul li{
-        font-size: x-small;
     }
 }
 /*  personal info   */
@@ -472,14 +456,10 @@ nav{
 }
 @media screen and (max-width:500px) {
     .personal h1{
-        margin-top: 2cm;
         text-align: left;
     }
     .personal p{
         display: none;
-    }
-    .personal ul li{
-        font-size: x-small;
     }
 }
 /*  end  */
@@ -491,10 +471,7 @@ nav{
 }
 @media screen and (max-width:500px) {
     .end h1{
-        margin-left: 0;
-        padding-bottom: 2.7cm;
-        margin-top: 4cm;
-        text-align: center;
+        display:none;
     }
 }
 
@@ -520,12 +497,11 @@ nav{
     font-family: cursive;
     font-size: larger;
     font-variant: small-caps;
-    text-shadow: 0 1px 3px black;
-    color: black;
+    text-shadow: 0 1px 3px silver;
+    color: silver;
 }
 @media screen and (max-width:500px) {
     .contactcontent{
-        color: black;
         margin-left: 0.5cm;
         margin-top: 5cm;
         animation: slideabo 1s forwards;
@@ -544,7 +520,7 @@ nav{
     }
 }
 form{
-    text-shadow: 0 1px 2px black;
+    text-shadow: 0 1px 2px silver;
     width: 70%;
     font-family: 'Times New Roman', Times, serif;
     font-variant: small-caps;
