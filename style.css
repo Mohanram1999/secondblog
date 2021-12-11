@@ -286,11 +286,11 @@ nav{
 .aboutcontent h1{
     margin-top:0;
     font-variant: small-caps;
-    font-size: larger;
+    font-size: large;
     font-family:cursive;
 }
 .aboutcontent p{
-    font-size: large;
+    font-size: small;
     font-style: italic;
     font-family: cursive;
     font-weight: bold;
@@ -314,9 +314,6 @@ nav{
         }
     }
     .aboutcontent h2{
-        display: none;
-    }
-    .aboutcontent hr{
         display: none;
     }
     .aboutcontent h1{
@@ -351,9 +348,6 @@ nav{
     .education h1{
         text-align: left;
     }
-    .education p{
-        display: none;
-    }
 }
 /*      Certification       */
 .certification h1{
@@ -378,9 +372,6 @@ nav{
     .certification h1{
         text-align: left;
     }
-    .certification p{
-        display: none;
-    }
 }
 /*      SKILLS      */
 .skills h1{
@@ -404,9 +395,6 @@ nav{
 @media screen and (max-width:500px) {
     .skills h1{
         text-align: left;
-    }
-    .skills p{
-        display: none;
     }
 }
 /*      PROJECTS        */
@@ -433,9 +421,6 @@ nav{
     .projects h1{
         text-align: left;
     }
-    .projects p{
-        display: none;
-    }
 }
 /*  personal info   */
 .personal h1{
@@ -459,9 +444,6 @@ nav{
 @media screen and (max-width:500px) {
     .personal h1{
         text-align: left;
-    }
-    .personal p{
-        display: none;
     }
 }
 /*  end  */
