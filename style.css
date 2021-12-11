@@ -284,7 +284,6 @@ nav{
     cursor: pointer;
 }
 .aboutcontent h1{
-    margin-top: 1.5cm;
     font-variant: small-caps;
     font-size: large;
     font-family:cursive;
@@ -320,6 +319,7 @@ nav{
         display: none;
     }
     .aboutcontent h1{
+        margin-top:1.5cm;
         text-align: center;
     }
     .aboutcontent p{
