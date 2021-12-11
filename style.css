@@ -336,6 +336,7 @@ nav{
     font-family: 'Times New Roman', Times, serif;
 }
 .education p{
+    margin-right:5cm;
     float: right;
     font-size: xx-large;
     cursor: pointer;
