@@ -284,6 +284,7 @@ nav{
     cursor: pointer;
 }
 .aboutcontent h1{
+    margin-top:0;
     font-variant: small-caps;
     font-size: large;
     font-family:cursive;
