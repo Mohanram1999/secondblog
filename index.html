@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MOHANRAM</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body id="body">
+        <script>
+            $(window).scroll(function() {
+                if ($(this).scrollTop()>50)
+                 {
+                    $('#navigation').hide(100);
+                 }
+                else
+                 {
+                  $('#navigation').show(100);
+                 }
+             });
+        </script>
+        <script>
+                $(document).ready(function(){
+                    $("#user").click(function(){
+                        $('#body').css('backgroundImage','url(scroll.jpg)');
+                        $('#navigation').css('color','black');
+                    });
+                });
+        </script>
+        <script>
+                $(document).ready(function(){
+                    $("#home").click(function(){
+                        $('#body').css('backgroundImage','url(wall.jpg)');
+                        $('#navigation').css('color','silver');
+                    });
+                });
+        </script>
+        <script>
+                    $(document).ready(function(){
+                        $("#contact").click(function(){
+                            $('#body').css('backgroundImage','url(wall1.gif)');
+                            $('#navigation').css('color','ghostwhite');
+                        });
+                    });
+        </script>
+
+        <!--Navigation-->
+        <nav id="navigation">
+            <div class="menu" id="menu">
+                <i class='bx bxs-chevron-right-circle'></i>
+            </div>
+            <div class="user" id="user">
+                <i class='bx bx-user'></i>
+            </div>
+            <div class="home" id="home">
+                <i class='bx bx-home'></i>
+            </div>
+            <div class="contact" id="contact">
+                <i class='bx bx-phone' ></i>
+            </div>
+            <script>
+                $(document).ready(function(){
+                    $("#menu").click(function(){
+                        $('#user').toggle();
+                        $("#home").toggle();
+                        $("#contact").toggle();
+                    });
+                });
+            </script>                
+        </nav>
+        <!--Navigation-->
+
+        <!----Home page-->
+
+        <section class="homecontent" id="homecontent">
+            <div class="homecon">
+                 <h1><span>Hello,</span><br>
+                 I am M<span id="chak">o</span>hanRam<br>
+                 <span id=Eng>I am an Engineer</span>
+                </h1>
+            </div>
+                <div class="soc">
+                    <ul>
+                        <li><a><i class='bx bxl-facebook-circle'></i></a></li>
+                        <li><a><i class='bx bxl-instagram'></i></a></li>
+                        <li><a><i class='bx bxl-whatsapp'></i></a></li>
+                        <li><a><i class='bx bxl-linkedin-square'></i></a></i></li>
+                    </ul>
+                </div>
+            <h2 id="quotesshow"><i class='bx bxs-chevrons-down'></i></h2>
+        </section>
+        
+        <section class="quote" id="quote">
+            <video autoplay loop muted id="myvideo">
+                <source src="quote3.mp4" type="video/mp4">
+            </video>
+            <h1>"Imagination is more important than Knowledge"</h1>
+        </section> 
+
+        <section class="quote1" id="quote1">
+            <video autoplay loop muted id="myvideo1">
+                <source src="quote1.mp4" type="video/mp4">
+            </video>
+            <h1>"Nothing is true | Everything is permitted"</h1>
+        </section>
+
+        <script>
+                $(document).ready(function(){
+                    $("#home").click(function(){
+                        $('#homecontent').show();
+                        $("#quote").show();
+                        $("#quote1").show();
+                        $('#contactcontent').hide();
+                        $('#aboutcontent').hide();
+                    });
+                });
+        </script>
+        <!---Home page-->
+
+        <!--About page-->
+        <section class="aboutcontent" id="aboutcontent">
+            <h2><i class='bx bxs-user-circle'></i></h2>
+            <h1>MohanRam K</h1>
+            <p>Electrical and Electronics Engineer</p>
+            <hr>
+            <div class="education">
+                <p><i class='bx bxs-book-bookmark'></i></p>
+                <h1>Education:</h1>
+                <ul>
+                    <li>Completed 10th in M.I.H.M.hr sec school with 95.6%.</li>
+                    <li>Completed 12th in Sishya.M.hr sec school with 89.4%.</li>
+                    <li>Completed  my degree in UCEK-kanchipuram with CGPA of 7.89.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="certification">
+                <p><i class='bx bxs-star' ></i></p>
+                <h1>Certification:</h1>
+                <ul>
+                    <li>Electrician foundation by SIEMENS</li>
+                    <li>Basics of engineering drawing by SIEMENS</li>
+                    <li>Diploma in computer application</li>
+                    <li>Python for Data Science</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="skills">
+                <p><i class='bx bxs-bookmark-alt'></i></p>
+                <h1>Skills:</h1>
+                <ul>
+                    <li>MATLAB</li>
+                    <li>PROTEUS</li>
+                    <li>ARDUINO</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>PYTHON</li>
+                </ul>
+            </div>
+            <div class="projects">
+                <p><i class='bx bxs-book-content'></i></p>
+                <h1>Projects:</h1>
+                <ul>
+                    <li>"FUZZY-PSO controller design for MPPT in PV system" in MATLAB.</li>
+                    <li>"Solar MPPT charge controller" (using sensors V and I values are monitored in LCD display and mobile by IOT.</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="personal">
+                <p><i class='bx bxs-user-voice'></i></p>
+                <h1>Launguages known:</h1>
+                <ul>
+                    <li>Tamil</li>
+                    <li>English</li>
+                    <li>Telugu</li>
+                </ul>
+                <hr>
+                <p><i class='bx bxs-extension'></i></p>
+                <h1>hobbies:</h1>
+                <ul>
+                    <li>Programming</li>
+                    <li>Dancing</li>
+                    <li>Writing stories</li>
+                    <li>Gaming</li>
+                </ul>
+            </div>
+            <hr>
+            <div class="end">
+                <h1>The End....</h1>
+            </div>
+            <hr>
+        </section>
+        <script>
+            $(document).ready(function(){
+                $("#user").click(function(){
+                    $('#homecontent').hide();
+                    $("#quote").hide();
+                    $("#quote1").hide();
+                    $('#contactcontent').hide();
+                    $('#aboutcontent').show();
+                });
+            });
+        </script>
+
+        <!----Contact Page----->
+        <section id="contactcontent" class="contactcontent">
+            <h1>Contact Me:</h1>
+            <form action="mailto:mohanram1728@gmail.com" method="POST" enctype="text/plain">
+
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" placeholder="Your Name"><br>
+                
+                <label for="mail">Mail ID:</label><br>
+                <input type="text" id="mail" placeholder="example@gmail.com"><br>
+
+                <label for="sub">Message for me:</label><br>
+                <textarea id="sub" placeholder="Write something" style="height: 100px"></textarea><br>
+
+                <input type="submit" value="Send >>"></input><br>
+
+                <h1 id="call">Call Me:<a href="tel:+919843458808"><i class='bx bxs-phone-call'>9080522990</i></a></h1>
+            </form>
+
+        </section>
+        <script>
+            $(document).ready(function(){
+                $("#contact").click(function(){
+                    $('#contactcontent').show();
+                    $('#homecontent').hide();
+                    $("#quote").hide();
+                    $("#quote1").hide();
+                    $('#aboutcontent').hide();
+                });
+            });
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

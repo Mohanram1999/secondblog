@@ -1,0 +1,649 @@
+body{
+    background-image: url("wall.jpg");
+    background-size: cover;
+    background-color: black;
+}
+@media screen and (max-width:500px) {
+    body{
+        height: 30vh;
+    }
+}
+
+/* Navigation start */
+
+nav{
+    position: fixed;
+    float: left;
+    margin-top: 0.7cm;
+    margin-left: 10px;
+    color: silver;
+    cursor: pointer;
+}
+.menu{
+    position: relative;
+    margin-top: 1.5cm;
+    float: left;
+    font-size: x-large;
+}
+.user{
+    position: absolute;
+    margin-left: 5px;
+    font-size: larger;
+    display: none;
+    transition: 0.5s;
+    animation: slideu 0.5s forwards;
+}
+.user:hover{
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 1px;
+    background-color: black;
+    color: silver;
+}
+@keyframes slideu {
+    from{
+        margin-top: 1.5cm;
+    }
+    to{
+        margin-top: 0;
+    }
+}
+.home{
+    margin-top: 1.5cm;
+    margin-left: 1.5cm;
+    position: absolute;
+    font-size: larger;
+    display: none;
+    animation: slider 0.5s forwards;
+}
+.home:hover{
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left: 1cm;
+    margin-top: 1.4cm;
+    background-color: black;
+    color: silver;
+}
+@keyframes slider {
+    from{
+        margin-left: 0cm;
+    }
+    to{
+        margin-left: 1.5cm;
+    }
+}
+.contact{
+    margin-top:3.2cm;
+    margin-left: 5px;
+    position: absolute;
+    font-size: larger;
+    display: none;
+    animation: slided 0.5s forwards;
+}
+.contact:hover{
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-left:1px ;
+    background-color: black;
+    color: silver;
+}
+@keyframes slided {
+    from{
+        margin-top: 1.5cm;
+    }
+    to{
+        margin-top: 3.2cm;
+    }
+}
+
+/* Navigation end */
+
+/*  social media links  */
+.soc{
+    cursor: pointer;
+}
+.soc ul li{
+    list-style: none;
+    display: inline-flex;
+    color: goldenrod;
+    font-size: larger;
+    cursor: pointer;
+}
+/*  social media links  */
+
+/*  Home content */
+
+.homecontent{
+    position: absolute;
+    margin-top: 6cm;
+    margin-left: 3cm;
+    animation: slidehome 1s forwards;
+}
+@keyframes slidehome {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 3cm;
+    }
+}
+@media screen and (max-width:500px) {
+    .homecontent{
+        margin-left: 0;
+        margin-top: 6cm;
+        animation: slidehomem 1s forwards;
+    }
+    @keyframes slidehomem {
+        from{
+            margin-top: 2cm;
+        }
+        to{
+            margin-top: 6cm;
+        }
+    }
+}
+.homecon{
+    margin-left: 1cm;
+}
+.homecon span{
+    font-size: large;
+    color:#FF9933;
+}
+.homecon h1 #chak{
+    color: #000080;
+    font-size: xx-large;
+}
+.homecon h1 #Eng{
+    font-size: large;
+    color:#138808;
+}
+.homecon h1{
+    letter-spacing: 1px;
+    font-size:xx-large;
+    font-variant: small-caps;
+    color:white;
+}
+@media screen and (max-width:500px){
+    .homecon h1{
+        font-size: 33px;
+    }
+}
+.homecontent h2{
+    color: whitesmoke;
+    margin-left: 1cm;
+    cursor: pointer;
+}
+
+.quote{
+    position: absolute;
+    margin-top: 133vh;
+    width: 99%;
+    height: 100vh;
+}
+@media screen and (max-width:500px) {
+    .quote{
+        width: 90%;
+        margin-top: 100vh;
+        height: 100vh;
+        border-top-right-radius:50%;
+        border-bottom-right-radius:50%;
+    }
+}
+#myvideo{
+    border: 10px rgb(160, 115, 60) outset;
+    position: absolute;
+    object-fit: cover;
+    width: 98%;
+    height: 100%;
+    border-radius: 10px;
+    border-top-right-radius:100%;
+    border-bottom-right-radius:100%;
+}
+.quote h1{
+    text-shadow: 0 4px 1px black;
+    color: beige;
+    position: relative;
+    text-align: right;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: cursive;
+    font-style: italic;
+    margin-top:8cm;
+    margin-right: 1cm;
+    font-variant: small-caps;
+    
+}
+#myvideo1{
+    border: 10px rgb(160, 115, 60) inset;
+    position: absolute;
+    object-fit: cover;
+    width: 98%;
+    height: 100%;
+    border-radius: 10px;
+    border-top-left-radius:100%;
+    border-bottom-left-radius:100%;
+}
+.quote1{
+    position: absolute;
+    margin-top: 237vh;
+    width: 99%;
+    height: 100vh;
+}
+@media screen and (max-width:500px) {
+    .quote1{
+        margin-top:206vh;
+        height: 100vh;
+        width: 90%;
+        border-top-left-radius:100%;
+        border-bottom-left-radius:100%;
+    }
+}
+.quote1 h1{
+    text-shadow: 0 4px 1px black;
+    color: beige;
+    position: relative;
+    text-align: left;
+    font-size: x-large;
+    font-variant: small-caps;
+    font-family: cursive;
+    font-weight: bolder;
+    font-style: italic;
+    margin-top:8cm;
+    margin-left: 1cm;
+}
+/*      Home content    */
+
+/*      ABOUT CONTENT       */
+.aboutcontent{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    margin-left: 4.5cm;
+    margin-top: 3cm;
+    animation: slideabout 1s forwards;
+}
+@keyframes slideabout {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 4.5cm;
+    }
+}
+.aboutcontent h2{
+    float: right;
+    font-size: xx-large;
+    margin-right: 5cm;
+    cursor: pointer;
+}
+.aboutcontent h1{
+    margin-top: 1.5cm;
+    font-variant: small-caps;
+    font-size: large;
+    font-family:cursive;
+}
+.aboutcontent p{
+    font-size: small;
+    font-style: italic;
+    font-family: cursive;
+    font-weight: bold;
+}
+.aboutcontent hr{
+    border: black 1px solid;
+    margin-right: 5cm;
+}
+@media screen and (max-width:500px) {
+    .aboutcontent{
+        margin-left: 0;
+        margin-top: 6.5cm;
+        animation: slideabo 1s forwards;
+    }
+    @keyframes slideabo {
+        from{
+            margin-top: 5cm;
+        }
+        to{
+            margin-top: 6.5cm;
+        }
+    }
+    .aboutcontent h2{
+        display: none;
+    }
+    .aboutcontent hr{
+        display: none;
+    }
+    .aboutcontent h1{
+        text-align: center;
+    }
+    .aboutcontent p{
+        text-align: center;
+    }
+}
+/*      EDUCATION       */
+.education h1{
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.education p{
+    float: right;
+    font-size: xx-large;
+    margin-right: 5cm;
+    cursor: pointer;
+}
+.education ul li{
+    list-style:square;
+    font-size: small;
+    font-family: cursive;
+    font-style: italic;
+}
+@media screen and (max-width:500px) {
+    .education h1{
+        margin-top: 2.7cm;
+        text-align: left;
+    }
+    .education p{
+        display: none;
+    }
+    .education ul li{
+        font-size: x-small;
+    }
+}
+/*      Certification       */
+.certification h1{
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.certification p{
+    float: right;
+    font-size: xx-large;
+    margin-right: 5cm;
+    cursor: pointer;
+}
+.certification ul li{
+    list-style:square;
+    font-size: small;
+    font-family: cursive;
+    font-style: italic;
+}
+@media screen and (max-width:500px) {
+    .certification h1{
+        margin-top: 1cm;
+        text-align: left;
+    }
+    .certification p{
+        display: none;
+    }
+    .certification ul li{
+        font-size: x-small;
+    }
+}
+/*      SKILLS      */
+.skills h1{
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.skills p{
+    float: right;
+    font-size: xx-large;
+    margin-right: 5cm;
+    cursor: pointer;
+}
+.skills ul li{
+    list-style:square;
+    font-size: small;
+    font-family: cursive;
+    font-style: italic;
+}
+@media screen and (max-width:500px) {
+    .skills h1{
+        margin-top: 1.5cm;
+        text-align: left;
+    }
+    .skills p{
+        display: none;
+    }
+    .skills ul li{
+        font-size: x-small;
+    }
+}
+/*      PROJECTS        */
+.projects h1{
+    margin-top: 1cm;
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.projects p{
+    float: right;
+    font-size: xx-large;
+    margin-right: 5cm;
+    cursor: pointer;
+}
+.projects ul li{
+    list-style:square;
+    font-size: small;
+    font-family: cursive;
+    font-style: italic;
+}
+@media screen and (max-width:500px) {
+    .projects h1{
+        margin-top: 1.2cm;
+        text-align: left;
+    }
+    .projects p{
+        display: none;
+    }
+    .projects ul li{
+        font-size: x-small;
+    }
+}
+/*  personal info   */
+.personal h1{
+    font-size: larger;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+.personal p{
+    float: right;
+    font-size: xx-large;
+    margin-right: 5cm;
+    cursor: pointer;
+}
+.personal ul li{
+    list-style:square;
+    font-size: small;
+    font-family: cursive;
+    font-style: italic;
+}
+@media screen and (max-width:500px) {
+    .personal h1{
+        margin-top: 2cm;
+        text-align: left;
+    }
+    .personal p{
+        display: none;
+    }
+    .personal ul li{
+        font-size: x-small;
+    }
+}
+/*  end  */
+.end h1{
+    margin-left: 10cm;
+    font-size: x-larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width:500px) {
+    .end h1{
+        margin-left: 0;
+        padding-bottom: 2.7cm;
+        margin-top: 4cm;
+        text-align: center;
+    }
+}
+
+/*      Contact Page        */
+.contactcontent{
+    display: none;
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    margin-left: 6cm;
+    margin-top: 3cm;
+    animation: slidecontact 1s forwards;
+}
+@keyframes slidecontact {
+    from{
+        margin-left: 0;
+    }
+    to{
+        margin-left: 6cm;
+    }
+}
+.contactcontent h1{
+    font-family: cursive;
+    font-size: larger;
+    font-variant: small-caps;
+    text-shadow: 0 1px 3px black;
+    color: black;
+}
+@media screen and (max-width:500px) {
+    .contactcontent{
+        color: black;
+        margin-left: 0.5cm;
+        margin-top: 5cm;
+        animation: slideabo 1s forwards;
+    }
+    @keyframes slideabo {
+        from{
+            margin-top: 4cm;
+        }
+        to{
+            margin-top: 5cm;
+        }
+    }
+    .contactcontent h1{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+form{
+    text-shadow: 0 1px 2px black;
+    width: 70%;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    border: 5px ridge black;
+    padding: 1cm;
+}
+input[type=text],textarea{
+    width: 99%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0px;
+    font-weight: bolder;
+    color: gold;
+    background-color: black;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: black;
+    color: silver;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: small;
+    font-family: cursive;
+    font-weight: bolder;
+}
+input[type=submit]:hover{
+    color: goldenrod;
+    animation: send 0.5s forwards;
+}
+@keyframes send {
+    from{
+        padding-left: 10px;
+    }
+    to{
+        padding-left: 20px;
+    }
+}
+#call{
+    text-align: center;
+    margin-top: 1cm;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+    font-size: large;
+    font-weight: bolder;
+}
+#call a{
+    font-size: small;
+    border-bottom: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
