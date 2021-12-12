@@ -301,7 +301,7 @@ nav{
 }
 @media screen and (max-width:500px) {
     .aboutcontent{
-        margin-left: 1cm;
+        margin-left: 15px;
         margin-top: 6.5cm;
         animation: slideabo 1s forwards;
     }
