@@ -301,7 +301,7 @@ nav{
 }
 @media screen and (max-width:500px) {
     .aboutcontent{
-        margin-left: 0;
+        margin-left: 1cm;
         margin-top: 6.5cm;
         animation: slideabo 1s forwards;
     }
@@ -330,6 +330,7 @@ nav{
 }
 /*      EDUCATION       */
 .education h1{
+    margin-top:0;
     font-size: larger;
     font-variant: small-caps;
     font-weight: bolder;
@@ -356,6 +357,7 @@ nav{
 }
 /*      Certification       */
 .certification h1{
+    margin-top:0;
     font-size: larger;
     font-variant: small-caps;
     font-weight: bolder;
@@ -383,6 +385,7 @@ nav{
 }
 /*      SKILLS      */
 .skills h1{
+    margin-top:0;
     font-size: larger;
     font-variant: small-caps;
     font-weight: bolder;
@@ -410,6 +413,7 @@ nav{
 }
 /*      PROJECTS        */
 .projects h1{
+    margin-top:0;
     margin-top: 1cm;
     font-size: larger;
     font-variant: small-caps;
@@ -438,6 +442,7 @@ nav{
 }
 /*  personal info   */
 .personal h1{
+    margin-top:0;
     font-size: larger;
     font-variant: small-caps;
     font-weight: bolder;
@@ -465,6 +470,7 @@ nav{
 }
 /*  end  */
 .end h1{
+    margin-top:0;
     margin-left: 10cm;
     font-size: x-larger;
     font-weight: bolder;
