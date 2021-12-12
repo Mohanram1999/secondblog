@@ -413,8 +413,7 @@ nav{
 }
 /*      PROJECTS        */
 .projects h1{
-    margin-top:0;
-    margin-top: 1cm;
+    margin-top:1cm;
     font-size: larger;
     font-variant: small-caps;
     font-weight: bolder;
@@ -434,6 +433,7 @@ nav{
 }
 @media screen and (max-width:500px) {
     .projects h1{
+        margin-top:0;
         text-align: left;
     }
     .projects p{
@@ -506,7 +506,7 @@ nav{
     font-size: larger;
     font-variant: small-caps;
     text-shadow: 0 1px 3px silver;
-    color: silver;
+    color: black;
 }
 @media screen and (max-width:500px) {
     .contactcontent{
